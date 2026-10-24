@@ -1,0 +1,61 @@
+.newsletter {
+  max-width: 380px;
+  margin: 48px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.newsletter label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.newsletter .agree {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 400;
+}
+
+.newsletter input[type='text'],
+.newsletter select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.newsletter .preview {
+  color: #555;
+  font-style: italic;
+}
+
+.newsletter button {
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 999px;
+  background: #2f54eb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.newsletter button:disabled {
+  background: #b0b8d1;
+  cursor: not-allowed;
+}
+
+.newsletter .confirmation {
+  color: #1a7f37;
+  font-weight: 600;
+}

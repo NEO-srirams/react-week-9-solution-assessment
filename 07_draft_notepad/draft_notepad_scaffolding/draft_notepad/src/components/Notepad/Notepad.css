@@ -1,0 +1,29 @@
+.notepad {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.notepad label {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.notepad textarea {
+  min-height: 120px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.notepad button {
+  align-self: flex-start;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 999px;
+  background: #d1242f;
+  color: #fff;
+  cursor: pointer;
+}

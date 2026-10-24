@@ -1,0 +1,44 @@
+{
+  "testcases": [
+    {
+      "name": "renders_the_heading_all_fields_and_both_buttons",
+      "weightage": 0.1
+    },
+    {
+      "name": "an_error_stays_hidden_until_the_field_is_blurred",
+      "weightage": 0.1
+    },
+    {
+      "name": "blurring_an_empty_field_shows_its_required_error",
+      "weightage": 0.1
+    },
+    {
+      "name": "email_must_look_like_name_at_domain_dot_com",
+      "weightage": 0.1
+    },
+    {
+      "name": "phone_must_be_exactly_ten_digits",
+      "weightage": 0.1
+    },
+    {
+      "name": "tickets_must_be_a_whole_number_from_1_to_5",
+      "weightage": 0.1
+    },
+    {
+      "name": "register_with_invalid_fields_shows_every_error_and_no_confirmation",
+      "weightage": 0.1
+    },
+    {
+      "name": "visible_errors_follow_the_field_live_once_register_was_clicked",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_valid_registration_shows_the_confirmation_and_editing_hides_it",
+      "weightage": 0.1
+    },
+    {
+      "name": "reset_clears_values_errors_touched_state_and_the_confirmation",
+      "weightage": 0.1
+    }
+  ]
+}

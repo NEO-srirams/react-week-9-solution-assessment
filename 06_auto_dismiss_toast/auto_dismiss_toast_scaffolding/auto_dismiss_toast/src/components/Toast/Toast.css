@@ -1,0 +1,20 @@
+.toast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: #1f2438;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.toast button {
+  padding: 4px 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}

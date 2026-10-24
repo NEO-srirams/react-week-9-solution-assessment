@@ -1,0 +1,44 @@
+{
+  "testcases": [
+    {
+      "name": "renders_the_heading_the_textarea_the_counter_and_both_buttons",
+      "weightage": 0.1
+    },
+    {
+      "name": "starts_empty_when_nothing_is_saved",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_character_line_follows_the_text_length",
+      "weightage": 0.1
+    },
+    {
+      "name": "typing_saves_the_draft_to_local_storage_under_notepad_draft",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_saved_draft_is_loaded_into_the_textarea_on_mount",
+      "weightage": 0.1
+    },
+    {
+      "name": "deleting_all_the_text_removes_the_storage_key",
+      "weightage": 0.1
+    },
+    {
+      "name": "clear_draft_empties_the_textarea_and_removes_the_key",
+      "weightage": 0.1
+    },
+    {
+      "name": "hiding_and_showing_the_notepad_restores_the_saved_draft",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_hidden_state_shows_the_message_and_the_show_label",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_re_render_without_a_text_change_does_not_write_to_storage",
+      "weightage": 0.1
+    }
+  ]
+}

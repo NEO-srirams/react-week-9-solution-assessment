@@ -1,0 +1,44 @@
+{
+  "testcases": [
+    {
+      "name": "renders_the_heading_the_button_and_a_zero_count_with_no_toast",
+      "weightage": 0.1
+    },
+    {
+      "name": "show_notification_displays_the_toast_and_increases_the_count",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_show_button_is_disabled_while_a_toast_is_visible",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_toast_is_still_visible_just_before_three_seconds",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_toast_disappears_by_itself_after_three_seconds_and_the_button_is_enabled_again",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_close_button_removes_the_toast_immediately",
+      "weightage": 0.1
+    },
+    {
+      "name": "closing_early_clears_the_old_timer_so_a_new_toast_keeps_its_full_three_seconds",
+      "weightage": 0.1
+    },
+    {
+      "name": "every_time_a_toast_is_shown_the_counter_goes_up",
+      "weightage": 0.1
+    },
+    {
+      "name": "closing_a_toast_early_causes_no_console_errors_later",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_timer_is_a_3000ms_timeout_started_on_mount_and_cleared_when_the_toast_closes",
+      "weightage": 0.1
+    }
+  ]
+}

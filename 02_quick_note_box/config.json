@@ -1,0 +1,44 @@
+{
+  "testcases": [
+    {
+      "name": "renders_the_heading_fields_count_and_empty_message",
+      "weightage": 0.1
+    },
+    {
+      "name": "typing_changes_nothing_else_on_the_page_until_add_note_is_clicked",
+      "weightage": 0.1
+    },
+    {
+      "name": "adding_a_note_appends_title_colon_note_to_the_list",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_empty_message_disappears_after_the_first_note",
+      "weightage": 0.1
+    },
+    {
+      "name": "both_inputs_are_cleared_after_a_note_is_added",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_count_and_order_follow_every_added_note",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_missing_title_shows_the_error_and_adds_nothing",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_missing_note_shows_the_error_and_adds_nothing",
+      "weightage": 0.1
+    },
+    {
+      "name": "whitespace_only_values_count_as_empty_and_the_error_clears_after_a_good_add",
+      "weightage": 0.1
+    },
+    {
+      "name": "typing_causes_no_re_render_because_the_inputs_are_uncontrolled",
+      "weightage": 0.1
+    }
+  ]
+}

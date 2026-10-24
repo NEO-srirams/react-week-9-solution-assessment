@@ -1,0 +1,50 @@
+.quick-notes {
+  max-width: 420px;
+  margin: 48px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quick-notes form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.quick-notes label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.quick-notes input,
+.quick-notes textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.quick-notes button {
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 999px;
+  background: #2f54eb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.quick-notes .error {
+  color: #d1242f;
+  font-weight: 600;
+}
+
+.quick-notes .empty {
+  color: #666;
+  font-style: italic;
+}

@@ -1,0 +1,35 @@
+.score-ticker-app {
+  max-width: 440px;
+  margin: 48px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.score-ticker-app .controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.score-ticker-app button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 999px;
+  background: #2f54eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.score-ticker-app select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.score-ticker-app label {
+  font-size: 0.85rem;
+  font-weight: 600;
+}

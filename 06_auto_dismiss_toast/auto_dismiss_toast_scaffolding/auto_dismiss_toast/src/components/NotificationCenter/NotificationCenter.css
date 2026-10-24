@@ -1,0 +1,23 @@
+.notification-center {
+  max-width: 380px;
+  margin: 48px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification-center > button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 999px;
+  background: #2f54eb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.notification-center > button:disabled {
+  background: #b0b8d1;
+  cursor: not-allowed;
+}

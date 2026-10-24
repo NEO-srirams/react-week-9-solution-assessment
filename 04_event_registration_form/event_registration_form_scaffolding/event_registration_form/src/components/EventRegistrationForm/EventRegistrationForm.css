@@ -1,0 +1,60 @@
+.event-registration {
+  max-width: 400px;
+  margin: 48px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-registration form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.event-registration label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.event-registration input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.event-registration .error {
+  min-height: 1.1em;
+  color: #d1242f;
+  font-size: 0.8rem;
+}
+
+.event-registration .actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.event-registration button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 999px;
+  background: #2f54eb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.event-registration button.secondary {
+  background: #e5e7ee;
+  color: #1f2438;
+}
+
+.event-registration .confirmation {
+  color: #1a7f37;
+  font-weight: 600;
+}

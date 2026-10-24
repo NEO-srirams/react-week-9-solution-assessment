@@ -1,0 +1,38 @@
+.typing-test {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.typing-test .hint {
+  color: #555;
+}
+
+.typing-test label {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.typing-test textarea {
+  min-height: 110px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.typing-test .result {
+  color: #1a7f37;
+  font-weight: 700;
+}
+
+.typing-test button {
+  align-self: flex-start;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 999px;
+  background: #2f54eb;
+  color: #fff;
+  cursor: pointer;
+}

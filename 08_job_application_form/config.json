@@ -1,0 +1,44 @@
+{
+  "testcases": [
+    {
+      "name": "renders_the_heading_every_field_the_role_options_and_the_counter",
+      "weightage": 0.1
+    },
+    {
+      "name": "errors_stay_hidden_until_blur_change_or_toggle",
+      "weightage": 0.1
+    },
+    {
+      "name": "full_name_and_email_rules",
+      "weightage": 0.1
+    },
+    {
+      "name": "experience_must_be_a_whole_number_from_0_to_40",
+      "weightage": 0.1
+    },
+    {
+      "name": "role_and_skills_rules_including_the_tester_needs_testing_rule",
+      "weightage": 0.1
+    },
+    {
+      "name": "cover_letter_length_rules_and_the_live_counter",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_failed_apply_shows_every_error_and_the_error_count",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_summary_updates_live_uses_the_singular_form_and_then_disappears",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_valid_application_shows_the_panel_with_skills_in_checkbox_order",
+      "weightage": 0.1
+    },
+    {
+      "name": "editing_any_field_after_a_successful_application_hides_the_panel",
+      "weightage": 0.1
+    }
+  ]
+}

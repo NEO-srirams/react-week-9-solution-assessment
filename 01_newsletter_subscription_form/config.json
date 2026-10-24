@@ -1,0 +1,44 @@
+{
+  "testcases": [
+    {
+      "name": "renders_the_newsletter_heading_and_all_controls",
+      "weightage": 0.1
+    },
+    {
+      "name": "initial_state_is_empty_weekly_unchecked_and_subscribe_is_disabled",
+      "weightage": 0.1
+    },
+    {
+      "name": "preview_asks_for_an_email_while_the_field_is_empty",
+      "weightage": 0.1
+    },
+    {
+      "name": "preview_updates_live_with_the_typed_email_and_default_frequency",
+      "weightage": 0.1
+    },
+    {
+      "name": "changing_the_dropdown_updates_the_preview_immediately",
+      "weightage": 0.1
+    },
+    {
+      "name": "subscribe_needs_both_a_real_email_and_the_agreement",
+      "weightage": 0.1
+    },
+    {
+      "name": "clicking_subscribe_shows_the_confirmation_with_the_typed_email",
+      "weightage": 0.1
+    },
+    {
+      "name": "editing_the_email_after_subscribing_hides_the_confirmation",
+      "weightage": 0.1
+    },
+    {
+      "name": "changing_frequency_or_agreement_after_subscribing_hides_the_confirmation",
+      "weightage": 0.1
+    },
+    {
+      "name": "all_three_inputs_stay_in_sync_with_the_state_they_control",
+      "weightage": 0.1
+    }
+  ]
+}

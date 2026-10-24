@@ -1,0 +1,44 @@
+{
+  "testcases": [
+    {
+      "name": "renders_the_heading_score_status_buttons_and_the_default_speed",
+      "weightage": 0.1
+    },
+    {
+      "name": "at_slow_speed_the_score_goes_up_every_two_seconds",
+      "weightage": 0.1
+    },
+    {
+      "name": "at_fast_speed_the_score_goes_up_every_second",
+      "weightage": 0.1
+    },
+    {
+      "name": "pause_stops_the_score_and_updates_the_status_and_the_button",
+      "weightage": 0.1
+    },
+    {
+      "name": "resume_continues_counting_from_the_same_score",
+      "weightage": 0.1
+    },
+    {
+      "name": "changing_speed_while_running_restarts_the_timer_with_a_full_new_interval",
+      "weightage": 0.1
+    },
+    {
+      "name": "changing_speed_while_paused_does_not_tick_and_the_new_speed_is_used_on_resume",
+      "weightage": 0.1
+    },
+    {
+      "name": "re_rendering_for_other_reasons_never_starts_a_second_timer",
+      "weightage": 0.1
+    },
+    {
+      "name": "unmounting_clears_the_timer_without_console_errors_and_mounting_gives_a_fresh_ticker",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_remounted_ticker_follows_the_current_paused_and_speed_values",
+      "weightage": 0.1
+    }
+  ]
+}

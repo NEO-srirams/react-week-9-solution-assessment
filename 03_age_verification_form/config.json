@@ -1,0 +1,44 @@
+{
+  "testcases": [
+    {
+      "name": "renders_the_heading_both_fields_and_the_verify_button",
+      "weightage": 0.1
+    },
+    {
+      "name": "no_error_is_shown_while_typing_before_verify_is_clicked",
+      "weightage": 0.1
+    },
+    {
+      "name": "verifying_an_empty_form_shows_both_required_errors",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_name_with_only_spaces_is_treated_as_empty",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_name_shorter_than_three_characters_shows_the_minimum_length_error",
+      "weightage": 0.1
+    },
+    {
+      "name": "ages_below_18_or_above_60_show_the_range_error",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_decimal_age_is_invalid",
+      "weightage": 0.1
+    },
+    {
+      "name": "the_boundary_ages_18_and_60_are_both_accepted",
+      "weightage": 0.1
+    },
+    {
+      "name": "a_valid_form_shows_the_result_with_the_name_trimmed",
+      "weightage": 0.1
+    },
+    {
+      "name": "fixing_the_fields_and_verifying_again_clears_the_old_errors",
+      "weightage": 0.1
+    }
+  ]
+}
